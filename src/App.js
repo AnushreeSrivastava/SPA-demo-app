@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import NavBar from './Component/NavBar';
 import Home from './Component/Home';
@@ -11,7 +11,24 @@ import Users from './Component/Users';
 import './App.css';
 
 function App() {
+
+  // state = {
+  //   uName: '',
+  //   pwd: ''
+  // }
+
+  // onInputChange = (e) => {
+  //   this.setState({
+  //     [e.target.name]: e.target.value
+  //   });
+  // }
+
   return (
+    // <>
+    //   <input type="text" name="uName" onChange={this.onInputChange} />
+    //   <input type="text" name="pwd" onChange={this.onInputChange} />
+    //   <h1>{this.state.uName},{this.state.pwd}</h1>
+    // </>
     <BrowserRouter>
       <div>
         <NavBar />
@@ -26,5 +43,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;

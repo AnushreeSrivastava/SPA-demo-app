@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const StyledLi = styled.li`
     list-style: none;
     padding: 10px;
-    margin: 10px 20px 10px 40px;
+    margin: 10px 20px;
     background-color: #2f2fd854;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     width: 90%;
     align-items: center;
@@ -21,8 +21,8 @@ font-size:20px;
 `;
 
 export const StyledCheck = styled.input`
-height: 35px;
-width: 35px;
+height: 20px;
+width: 30px;
 margin-right: 10px;
 `;
 

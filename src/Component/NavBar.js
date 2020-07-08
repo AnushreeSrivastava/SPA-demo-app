@@ -3,16 +3,17 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const StyledLink = styled(NavLink)`
-color:black;
-list-style : none;
-padding:10px;
-margin:5px;
-background-color: #179ccaad;
-font-size: 16px;
-font-weight: bold;
-width: 120px;
-display: inline-block;
-text-decoration: none;
+color: black;
+    list-style: none;
+    padding: 8px;
+    margin: 5px;
+    background-color: #179ccaad;
+    font-size: 14px;
+    font-weight: bold;
+    width: 85px;
+    display: inline-block;
+    -webkit-text-decoration: none;
+    text-decoration: none;
 
 &.active {
     color: #3b0fec;

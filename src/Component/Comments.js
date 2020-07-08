@@ -9,7 +9,7 @@ margin:20px;
 background-color: #2f2fd854;
 font-size: 16px;
 font-weight: bold;
-width: 44%;
+width: 42%;
 float:left;
 border-radius: 20px;
 

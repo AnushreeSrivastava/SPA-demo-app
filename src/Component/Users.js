@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from "react-router-dom";
-import { StyledLi, StyledH1, Span, StyledSpan } from '../assests/styles/user';
+import { StyledLi, P, Span, StyledSpan } from '../assests/styles/user';
 
 const Users = () => {
     const [users, setUsers] = useState([]);
@@ -27,13 +27,13 @@ const Users = () => {
             <ul>
                 {users.map(user =>
                     <StyledLi key={user.id} onClick={() => handleClick(user.id)}>
-                        <p><Span>Name: </Span>{user.name}</p>
-                        <p><Span>Email: </Span>{user.email}</p>
-                        <p>
+                        <P><Span>Name: </Span>{user.name}</P>
+                        <P><Span>Email: </Span>{user.email}</P>
+                        <P>
                             <Span>Address: </Span>
                             {user.address.street},{user.address.suite},{user.address.city},{user.address.zipcode}
                             <StyledSpan>Click to view todos</StyledSpan>
-                        </p>
+                        </P>
 
                     </StyledLi>)}
             </ul>
